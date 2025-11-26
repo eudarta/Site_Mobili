@@ -26,6 +26,17 @@ height: 400px;
 
 }
 
+      /*-----------------------------*/
+      /*    Estilizando o 'Header menor'   */
+      /*-----------------------------*/
+
+.headermenor {
+    background: url('images/header1.png');
+background-repeat: no-repeat;
+background-position: center center;
+height: 80px;
+}
+
 
       /*-----------------------------*/
       /*   Estilizando a 'NavBar'    */
@@ -52,4 +63,12 @@ height: 400px;
     }
     li a:hover {/* Estilizando classe 'Link Dentro da Lista' com ação de passar o mouse */
         background-color: rgba(214, 191, 141, 0.747);
+    }
+
+    h1 {
+        color: #ddd0b8;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 50px;
+        text-shadow: 2px 2px 4px #000000;
     }
