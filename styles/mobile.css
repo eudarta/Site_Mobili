@@ -1,21 +1,55 @@
-/*
-Cores
-#A58763 PAPELÃO
-#2D2D2D CINZA
-#E9E0D1 COR DE PELE
-#D7C9AE COR DE PELE MAIS CLARO
-#99744a PAPELAO 2 
-#c19c6f BEGE CLARO
-#404936 VERDE
 
-.poiret-one-regular {
-  font-family: "Poiret One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+*{
+    padding: 0%;
+margin: 0%;
+box-sizing: border-box;
 }
-font family: 'caveat', cursive;
-font family: 'EB Garamond', serif;
-font family: 'Marhey', cursive;
-font family: 'Mynerve', cursive;
-font family: 'Roboto', sans-serif;
-*/
+      /*-----------------------------*/
+      /*     Estilizando 'Body'      */
+      /*-----------------------------*/
+
+body {
+    background-color: #A68A6A;
+        margin: 0;
+        padding: 0;
+}
+
+      /*-----------------------------*/
+      /*    Estilizando o 'Header'   */
+      /*-----------------------------*/
+
+header {
+background: url('images/header1.png');
+background-repeat: no-repeat;
+background-position: center center;
+height: 400px;
+
+}
+
+
+      /*-----------------------------*/
+      /*   Estilizando a 'NavBar'    */
+      /*-----------------------------*/
+
+    ul {/* Estilizando a classe 'Lista' */
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        height: 70px;
+        justify-content: left;
+        align-items: center;
+        background-color: #00000000;
+        display: flex;
+        overflow: hidden;
+    }
+    li a {/* Estilizando classe 'Link Dentro da Lista' */
+        text-align: center;
+        display: block;
+        color: #ffffff;
+        padding: 10px 80px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    li a:hover {/* Estilizando classe 'Link Dentro da Lista' com ação de passar o mouse */
+        background-color: rgba(214, 191, 141, 0.747);
+    }
